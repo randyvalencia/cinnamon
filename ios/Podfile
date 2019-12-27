@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'Cinnamon' do
-  # Pods for Cinnamon
+target 'cinnamon' do
+  # Pods for cinnamon
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,9 +34,7 @@ target 'Cinnamon' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
-
-  target 'CinnamonTests' do
+  target 'cinnamonTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -44,10 +42,10 @@ target 'Cinnamon' do
   use_native_modules!
 end
 
-target 'Cinnamon-tvOS' do
-  # Pods for Cinnamon-tvOS
+target 'cinnamon-tvOS' do
+  # Pods for cinnamon-tvOS
 
-  target 'Cinnamon-tvOSTests' do
+  target 'cinnamon-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

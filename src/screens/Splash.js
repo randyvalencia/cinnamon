@@ -3,10 +3,90 @@
  */
 
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {connect} from 'react-redux';
+import {StyleSheet, UIManager, View} from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
+import RouteNames from '../RouteNames';
+import {loadUserIntoRedux, finishWalkthrough} from '../actions';
+import {stGetUser, stGetWalkthrough, resetStorage} from '../utils/storage';
+
+import Config from '../Config';
+import Theme from '../Theme';
+
+class Splash extends React.Component {
+  mounted = false;
+  state = {
+    showRealApp: false,
+    ready: false,
+  };
+
+  constructor(props) {
+    super(props);
+    //this.clearAsyncStorage(); // reset
+    this.loadUser();
+  }
+
+  componentDidMount() {
+    this.mounted = true;
+    this.configureLayoutAnimation();
+  }
+  componentWillUnmount() {
+    this.mounted = false;
+  }
+  configureLayoutAnimation() {
+    if (Config.isAndroid) {
+      UIManager.setLayoutAnimationEnabledExperimental &&
+        UIManager.setLayoutAnimationEnabledExperimental(true);
+    }
+  }
+
+  loadUser = async () => {
+    const {navigation, loadUserIntoRedux} = this.props;
+    const user = await stGetUser();
+    const isUserWalkthrough = await stGetWalkthrough();
+
+    if (user) {
+      loadUserIntoRedux(user);
+      console.log('USER LOGGED IN: ' + user.name);
+      navigation.navigate(RouteNames.Home);
+    } else {
+      if (isUserWalkthrough) {
+        navigation.navigate(RouteNames.Login);
+        console.log('USER FINISHED WALKTHROUGH');
+      }
+    }
+    if (this.mounted) {
+      this.setState({ready: true});
+    }
+  };
+
+  onDone = () => {
+    const {navigation, finishWalkthrough} = this.props;
+    finishWalkthrough(navigation);
+    this.setState({showRealApp: true});
+  };
+
+  clearAsyncStorage = () => {
+    resetStorage();
+  };
+
+  render() {
+    if (this.state.ready) {
+      if (this.state.showRealApp) {
+        return <Splash />;
+      } else {
+        return <AppIntroSlider slides={slides} onDone={this.onDone} />;
+      }
+    } else {
+      return <View style={styles.container} />;
+    }
+  }
+}
 
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: Theme.colors.background,
+  },
   MainContainer: {
     flex: 1,
     paddingTop: 20,
@@ -76,19 +156,9 @@ const slides = [
   },
 ];
 
-export default class Splash extends React.Component {
-  state = {showRealApp: false};
+const mapStateToProps = ({auth: {user}}) => ({user});
 
-  _onDone = () => {
-    this.setState({showRealApp: true});
-  };
-
-  render() {
-    if (this.state.showRealApp) {
-      console.log('HELLO');
-      return <Splash />;
-    } else {
-      return <AppIntroSlider slides={slides} onDone={this._onDone} />;
-    }
-  }
-}
+export default connect(
+  mapStateToProps,
+  {loadUserIntoRedux, finishWalkthrough},
+)(Splash);

@@ -3,5 +3,7 @@
  */
 export default {
   Splash: 'Splash',
-  AuthStack: 'AuthStack',
+  Login: 'Login',
+  Home: 'Home',
+  BottomTabs: 'BottomTabs',
 };

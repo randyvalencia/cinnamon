@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Cinnamon-tvOS.app"
-               BlueprintName = "Cinnamon-tvOS"
-               ReferencedContainer = "container:Cinnamon.xcodeproj">
+               BuildableName = "cinnamon-tvOS.app"
+               BlueprintName = "cinnamon-tvOS"
+               ReferencedContainer = "container:cinnamon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Cinnamon-tvOSTests.xctest"
-               BlueprintName = "Cinnamon-tvOSTests"
-               ReferencedContainer = "container:Cinnamon.xcodeproj">
+               BuildableName = "cinnamon-tvOSTests.xctest"
+               BlueprintName = "cinnamon-tvOSTests"
+               ReferencedContainer = "container:cinnamon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Cinnamon-tvOSTests.xctest"
-               BlueprintName = "Cinnamon-tvOSTests"
-               ReferencedContainer = "container:Cinnamon.xcodeproj">
+               BuildableName = "cinnamon-tvOSTests.xctest"
+               BlueprintName = "cinnamon-tvOSTests"
+               ReferencedContainer = "container:cinnamon.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Cinnamon-tvOS.app"
-            BlueprintName = "Cinnamon-tvOS"
-            ReferencedContainer = "container:Cinnamon.xcodeproj">
+            BuildableName = "cinnamon-tvOS.app"
+            BlueprintName = "cinnamon-tvOS"
+            ReferencedContainer = "container:cinnamon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Cinnamon-tvOS.app"
-            BlueprintName = "Cinnamon-tvOS"
-            ReferencedContainer = "container:Cinnamon.xcodeproj">
+            BuildableName = "cinnamon-tvOS.app"
+            BlueprintName = "cinnamon-tvOS"
+            ReferencedContainer = "container:cinnamon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Cinnamon-tvOS.app"
-            BlueprintName = "Cinnamon-tvOS"
-            ReferencedContainer = "container:Cinnamon.xcodeproj">
+            BuildableName = "cinnamon-tvOS.app"
+            BlueprintName = "cinnamon-tvOS"
+            ReferencedContainer = "container:cinnamon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

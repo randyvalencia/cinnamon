@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CinnamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CinnamonTests.m */; };
+		00E356F31AD99517003FC87E /* cinnamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cinnamonTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,14 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* CinnamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CinnamonTests.m */; };
-		5B34C3177AC71383424CBACD /* libPods-Cinnamon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DE3502D4FED2D059E9DF2E /* libPods-Cinnamon.a */; };
-		63DA447123B911CC80884FAE /* libPods-CinnamonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E717D86D24D3BA74E8779F0 /* libPods-CinnamonTests.a */; };
-		846C0549A33272812159C454 /* libPods-Cinnamon-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3D6EA63B876A18483D392 /* libPods-Cinnamon-tvOSTests.a */; };
-		FC526FBCEF5081796C0ACEFD /* libPods-Cinnamon-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EFF50192D408415CA4544C /* libPods-Cinnamon-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* cinnamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cinnamonTests.m */; };
+		650616E4E2E22861B7CE0879 /* libPods-cinnamon-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913F83F41A924EB63059D56B /* libPods-cinnamon-tvOS.a */; };
+		6F46056A1C7417B1D33BE33B /* libPods-cinnamon-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43388753BFFA1F825C3188BD /* libPods-cinnamon-tvOSTests.a */; };
+		A1C56135D445977BE085AC4A /* libPods-cinnamonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9C1E5E7BA16B37D1D7BB44 /* libPods-cinnamonTests.a */; };
+		A5D5313B308F4E2495B2D1E7 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B151F6D52DA645C79694918A /* Raleway-Bold.ttf */; };
+		E2CC1094EE7F4CDDBFBCD484 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3908300C04141ACBDA1BCF0 /* Raleway-Regular.ttf */; };
+		EB22ED4A6FEC4899BBF75DBF /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABCC229602849689D8E8D10 /* Raleway-SemiBold.ttf */; };
+		F2D781CCA8B5FB0080B05EB0 /* libPods-cinnamon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 228929C90ACFF4F4496F60E1 /* libPods-cinnamon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +31,48 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Cinnamon;
+			remoteInfo = cinnamon;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Cinnamon-tvOS";
+			remoteInfo = "cinnamon-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* CinnamonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinnamonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* cinnamonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cinnamonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CinnamonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinnamonTests.m; sourceTree = "<group>"; };
-		07EFF50192D408415CA4544C /* libPods-Cinnamon-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cinnamon-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B93A75C07E233217D19E7E3 /* Pods-Cinnamon-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinnamon-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Cinnamon-tvOS/Pods-Cinnamon-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Cinnamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinnamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cinnamon/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cinnamon/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* cinnamonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cinnamonTests.m; sourceTree = "<group>"; };
+		0E9C1E5E7BA16B37D1D7BB44 /* libPods-cinnamonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cinnamonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* cinnamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinnamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cinnamon/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cinnamon/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Cinnamon/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Cinnamon/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cinnamon/main.m; sourceTree = "<group>"; };
-		15DE3502D4FED2D059E9DF2E /* libPods-Cinnamon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cinnamon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E717D86D24D3BA74E8779F0 /* libPods-CinnamonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CinnamonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* Cinnamon-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinnamon-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Cinnamon-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cinnamon-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86C3D6EA63B876A18483D392 /* libPods-Cinnamon-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cinnamon-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBEB9A966EC59CF6598A4780 /* Pods-CinnamonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinnamonTests.debug.xcconfig"; path = "Target Support Files/Pods-CinnamonTests/Pods-CinnamonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D3BA2628AD431E28047BAB8C /* Pods-Cinnamon-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinnamon-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Cinnamon-tvOS/Pods-Cinnamon-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D7235C7D06DB7785DD650D26 /* Pods-CinnamonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinnamonTests.release.xcconfig"; path = "Target Support Files/Pods-CinnamonTests/Pods-CinnamonTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cinnamon/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cinnamon/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cinnamon/main.m; sourceTree = "<group>"; };
+		228929C90ACFF4F4496F60E1 /* libPods-cinnamon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cinnamon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297736AFBA32234A99BFCC29 /* Pods-cinnamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamon.release.xcconfig"; path = "Target Support Files/Pods-cinnamon/Pods-cinnamon.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* cinnamon-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cinnamon-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* cinnamon-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cinnamon-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABCC229602849689D8E8D10 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../src/assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		43388753BFFA1F825C3188BD /* libPods-cinnamon-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cinnamon-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE4007FD219C932FE62626D /* Pods-cinnamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamon.debug.xcconfig"; path = "Target Support Files/Pods-cinnamon/Pods-cinnamon.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEB8A10FD9CA40DBA4CAF52 /* Pods-cinnamonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamonTests.debug.xcconfig"; path = "Target Support Files/Pods-cinnamonTests/Pods-cinnamonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		913F83F41A924EB63059D56B /* libPods-cinnamon-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cinnamon-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B151F6D52DA645C79694918A /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../src/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		B3908300C04141ACBDA1BCF0 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../src/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		B5268BA1E2A58A3A510EEBF4 /* Pods-cinnamon-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamon-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cinnamon-tvOSTests/Pods-cinnamon-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB447620812D91E044E81204 /* Pods-cinnamonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamonTests.release.xcconfig"; path = "Target Support Files/Pods-cinnamonTests/Pods-cinnamonTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4A8C6C011AA76C761EE1FC9 /* Pods-cinnamon-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamon-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cinnamon-tvOS/Pods-cinnamon-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		EA89C1C3506ECBA2D7B0827C /* Pods-cinnamon-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamon-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cinnamon-tvOSTests/Pods-cinnamon-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE67BE5EDB2399818F3D2F03 /* Pods-Cinnamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinnamon.debug.xcconfig"; path = "Target Support Files/Pods-Cinnamon/Pods-Cinnamon.debug.xcconfig"; sourceTree = "<group>"; };
-		EED02CB8E4BE8B6EB0F0BC94 /* Pods-Cinnamon-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinnamon-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cinnamon-tvOSTests/Pods-Cinnamon-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8DB01E3288C4E351040EDD3 /* Pods-Cinnamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinnamon.release.xcconfig"; path = "Target Support Files/Pods-Cinnamon/Pods-Cinnamon.release.xcconfig"; sourceTree = "<group>"; };
-		FBC82201A92121D1CACDE5DA /* Pods-Cinnamon-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinnamon-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cinnamon-tvOSTests/Pods-Cinnamon-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F30A42428153BABE98118593 /* Pods-cinnamon-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinnamon-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cinnamon-tvOS/Pods-cinnamon-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DA447123B911CC80884FAE /* libPods-CinnamonTests.a in Frameworks */,
+				A1C56135D445977BE085AC4A /* libPods-cinnamonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B34C3177AC71383424CBACD /* libPods-Cinnamon.a in Frameworks */,
+				F2D781CCA8B5FB0080B05EB0 /* libPods-cinnamon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC526FBCEF5081796C0ACEFD /* libPods-Cinnamon-tvOS.a in Frameworks */,
+				650616E4E2E22861B7CE0879 /* libPods-cinnamon-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +104,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846C0549A33272812159C454 /* libPods-Cinnamon-tvOSTests.a in Frameworks */,
+				6F46056A1C7417B1D33BE33B /* libPods-cinnamon-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CinnamonTests */ = {
+		00E356EF1AD99517003FC87E /* cinnamonTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CinnamonTests.m */,
+				00E356F21AD99517003FC87E /* cinnamonTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CinnamonTests;
+			path = cinnamonTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +128,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Cinnamon */ = {
+		13B07FAE1A68108700A75B9A /* cinnamon */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +139,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Cinnamon;
+			name = cinnamon;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,12 +147,23 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				15DE3502D4FED2D059E9DF2E /* libPods-Cinnamon.a */,
-				07EFF50192D408415CA4544C /* libPods-Cinnamon-tvOS.a */,
-				86C3D6EA63B876A18483D392 /* libPods-Cinnamon-tvOSTests.a */,
-				1E717D86D24D3BA74E8779F0 /* libPods-CinnamonTests.a */,
+				228929C90ACFF4F4496F60E1 /* libPods-cinnamon.a */,
+				913F83F41A924EB63059D56B /* libPods-cinnamon-tvOS.a */,
+				43388753BFFA1F825C3188BD /* libPods-cinnamon-tvOSTests.a */,
+				0E9C1E5E7BA16B37D1D7BB44 /* libPods-cinnamonTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E20F766B34D4798A5BADCE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B151F6D52DA645C79694918A /* Raleway-Bold.ttf */,
+				B3908300C04141ACBDA1BCF0 /* Raleway-Regular.ttf */,
+				3ABCC229602849689D8E8D10 /* Raleway-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +176,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Cinnamon */,
+				13B07FAE1A68108700A75B9A /* cinnamon */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CinnamonTests */,
+				00E356EF1AD99517003FC87E /* cinnamonTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				89DAAD7F90C0735B09DFB9DA /* Pods */,
+				A6C9399998F6A5477828824A /* Pods */,
+				4E20F766B34D4798A5BADCE9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,25 +192,25 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Cinnamon.app */,
-				00E356EE1AD99517003FC87E /* CinnamonTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Cinnamon-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Cinnamon-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* cinnamon.app */,
+				00E356EE1AD99517003FC87E /* cinnamonTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* cinnamon-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* cinnamon-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89DAAD7F90C0735B09DFB9DA /* Pods */ = {
+		A6C9399998F6A5477828824A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EE67BE5EDB2399818F3D2F03 /* Pods-Cinnamon.debug.xcconfig */,
-				F8DB01E3288C4E351040EDD3 /* Pods-Cinnamon.release.xcconfig */,
-				D3BA2628AD431E28047BAB8C /* Pods-Cinnamon-tvOS.debug.xcconfig */,
-				0B93A75C07E233217D19E7E3 /* Pods-Cinnamon-tvOS.release.xcconfig */,
-				EED02CB8E4BE8B6EB0F0BC94 /* Pods-Cinnamon-tvOSTests.debug.xcconfig */,
-				FBC82201A92121D1CACDE5DA /* Pods-Cinnamon-tvOSTests.release.xcconfig */,
-				CBEB9A966EC59CF6598A4780 /* Pods-CinnamonTests.debug.xcconfig */,
-				D7235C7D06DB7785DD650D26 /* Pods-CinnamonTests.release.xcconfig */,
+				6FE4007FD219C932FE62626D /* Pods-cinnamon.debug.xcconfig */,
+				297736AFBA32234A99BFCC29 /* Pods-cinnamon.release.xcconfig */,
+				F30A42428153BABE98118593 /* Pods-cinnamon-tvOS.debug.xcconfig */,
+				E4A8C6C011AA76C761EE1FC9 /* Pods-cinnamon-tvOS.release.xcconfig */,
+				EA89C1C3506ECBA2D7B0827C /* Pods-cinnamon-tvOSTests.debug.xcconfig */,
+				B5268BA1E2A58A3A510EEBF4 /* Pods-cinnamon-tvOSTests.release.xcconfig */,
+				7CEB8A10FD9CA40DBA4CAF52 /* Pods-cinnamonTests.debug.xcconfig */,
+				BB447620812D91E044E81204 /* Pods-cinnamonTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,11 +219,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CinnamonTests */ = {
+		00E356ED1AD99517003FC87E /* cinnamonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CinnamonTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cinnamonTests" */;
 			buildPhases = (
-				98F844A7B80BC50F3E4454C3 /* [CP] Check Pods Manifest.lock */,
+				8AB7C8F7DBA2678780B8BB77 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -215,37 +233,37 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CinnamonTests;
-			productName = CinnamonTests;
-			productReference = 00E356EE1AD99517003FC87E /* CinnamonTests.xctest */;
+			name = cinnamonTests;
+			productName = cinnamonTests;
+			productReference = 00E356EE1AD99517003FC87E /* cinnamonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Cinnamon */ = {
+		13B07F861A680F5B00A75B9A /* cinnamon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cinnamon" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cinnamon" */;
 			buildPhases = (
-				2BD2D32B8C2E16566B414D96 /* [CP] Check Pods Manifest.lock */,
+				C2DB09BEF9876DE50112FBD7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				228817208A2082712ADE95A5 /* [CP] Copy Pods Resources */,
+				B50C75BB9C53705068F561C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cinnamon;
-			productName = Cinnamon;
-			productReference = 13B07F961A680F5B00A75B9A /* Cinnamon.app */;
+			name = cinnamon;
+			productName = cinnamon;
+			productReference = 13B07F961A680F5B00A75B9A /* cinnamon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Cinnamon-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* cinnamon-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cinnamon-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cinnamon-tvOS" */;
 			buildPhases = (
-				3FF29824DFDF7F45B0FFB5A5 /* [CP] Check Pods Manifest.lock */,
+				0DD31C4C99CE76EEBB775EEA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -256,16 +274,16 @@
 			);
 			dependencies = (
 			);
-			name = "Cinnamon-tvOS";
-			productName = "Cinnamon-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Cinnamon-tvOS.app */;
+			name = "cinnamon-tvOS";
+			productName = "cinnamon-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* cinnamon-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Cinnamon-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* cinnamon-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cinnamon-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cinnamon-tvOSTests" */;
 			buildPhases = (
-				2395AD94564C7EAF8CCF5910 /* [CP] Check Pods Manifest.lock */,
+				47CA5EB3C462AD2F3D8D0C28 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -275,9 +293,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Cinnamon-tvOSTests";
-			productName = "Cinnamon-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Cinnamon-tvOSTests.xctest */;
+			name = "cinnamon-tvOSTests";
+			productName = "cinnamon-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* cinnamon-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -286,7 +304,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -304,7 +322,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cinnamon" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cinnamon" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -317,10 +335,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Cinnamon */,
-				00E356ED1AD99517003FC87E /* CinnamonTests */,
-				2D02E47A1E0B4A5D006451C7 /* Cinnamon-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Cinnamon-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* cinnamon */,
+				00E356ED1AD99517003FC87E /* cinnamonTests */,
+				2D02E47A1E0B4A5D006451C7 /* cinnamon-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* cinnamon-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +357,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A5D5313B308F4E2495B2D1E7 /* Raleway-Bold.ttf in Resources */,
+				E2CC1094EE7F4CDDBFBCD484 /* Raleway-Regular.ttf in Resources */,
+				EB22ED4A6FEC4899BBF75DBF /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,13 +395,93 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		228817208A2082712ADE95A5 /* [CP] Copy Pods Resources */ = {
+		0DD31C4C99CE76EEBB775EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cinnamon-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cinnamon/Pods-Cinnamon-resources.sh",
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		47CA5EB3C462AD2F3D8D0C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cinnamon-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB7C8F7DBA2678780B8BB77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cinnamonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50C75BB9C53705068F561C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cinnamon/Pods-cinnamon-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -419,10 +520,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cinnamon/Pods-Cinnamon-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cinnamon/Pods-cinnamon-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2395AD94564C7EAF8CCF5910 /* [CP] Check Pods Manifest.lock */ = {
+		C2DB09BEF9876DE50112FBD7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,87 +538,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cinnamon-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2BD2D32B8C2E16566B414D96 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cinnamon-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		3FF29824DFDF7F45B0FFB5A5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cinnamon-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		98F844A7B80BC50F3E4454C3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CinnamonTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cinnamon-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -569,7 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CinnamonTests.m in Sources */,
+				00E356F31AD99517003FC87E /* cinnamonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +616,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* CinnamonTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* cinnamonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,12 +625,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Cinnamon */;
+			target = 13B07F861A680F5B00A75B9A /* cinnamon */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Cinnamon-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* cinnamon-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -621,7 +642,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = Cinnamon;
+			path = cinnamon;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -629,14 +650,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBEB9A966EC59CF6598A4780 /* Pods-CinnamonTests.debug.xcconfig */;
+			baseConfigurationReference = 7CEB8A10FD9CA40DBA4CAF52 /* Pods-cinnamonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CinnamonTests/Info.plist;
+				INFOPLIST_FILE = cinnamonTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -646,17 +667,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinnamon.app/Cinnamon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinnamon.app/cinnamon";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7235C7D06DB7785DD650D26 /* Pods-CinnamonTests.release.xcconfig */;
+			baseConfigurationReference = BB447620812D91E044E81204 /* Pods-cinnamonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CinnamonTests/Info.plist;
+				INFOPLIST_FILE = cinnamonTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -666,18 +687,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinnamon.app/Cinnamon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinnamon.app/cinnamon";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE67BE5EDB2399818F3D2F03 /* Pods-Cinnamon.debug.xcconfig */;
+			baseConfigurationReference = 6FE4007FD219C932FE62626D /* Pods-cinnamon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = Cinnamon/Info.plist;
+				INFOPLIST_FILE = cinnamon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -685,18 +706,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Cinnamon;
+				PRODUCT_NAME = cinnamon;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8DB01E3288C4E351040EDD3 /* Pods-Cinnamon.release.xcconfig */;
+			baseConfigurationReference = 297736AFBA32234A99BFCC29 /* Pods-cinnamon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Cinnamon/Info.plist;
+				INFOPLIST_FILE = cinnamon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -704,14 +725,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Cinnamon;
+				PRODUCT_NAME = cinnamon;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3BA2628AD431E28047BAB8C /* Pods-Cinnamon-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F30A42428153BABE98118593 /* Pods-cinnamon-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -722,14 +743,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cinnamon-tvOS/Info.plist";
+				INFOPLIST_FILE = "cinnamon-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cinnamon-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cinnamon-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -739,7 +760,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B93A75C07E233217D19E7E3 /* Pods-Cinnamon-tvOS.release.xcconfig */;
+			baseConfigurationReference = E4A8C6C011AA76C761EE1FC9 /* Pods-cinnamon-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -750,14 +771,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cinnamon-tvOS/Info.plist";
+				INFOPLIST_FILE = "cinnamon-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cinnamon-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cinnamon-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -767,7 +788,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED02CB8E4BE8B6EB0F0BC94 /* Pods-Cinnamon-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = EA89C1C3506ECBA2D7B0827C /* Pods-cinnamon-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -777,24 +798,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cinnamon-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "cinnamon-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cinnamon-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cinnamon-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinnamon-tvOS.app/Cinnamon-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinnamon-tvOS.app/cinnamon-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBC82201A92121D1CACDE5DA /* Pods-Cinnamon-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = B5268BA1E2A58A3A510EEBF4 /* Pods-cinnamon-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -804,17 +825,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cinnamon-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "cinnamon-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cinnamon-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cinnamon-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinnamon-tvOS.app/Cinnamon-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinnamon-tvOS.app/cinnamon-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -921,7 +942,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CinnamonTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cinnamonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -930,7 +951,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cinnamon" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cinnamon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -939,7 +960,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cinnamon-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cinnamon-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -948,7 +969,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cinnamon-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cinnamon-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -957,7 +978,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cinnamon" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cinnamon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
